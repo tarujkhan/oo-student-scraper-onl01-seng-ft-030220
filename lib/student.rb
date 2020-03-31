@@ -11,8 +11,9 @@ class Student
     @@all << self
   end
 
-binding.pry
+
   def self.create_from_collection(students_array)
+    binding.pry
     student_hash.each {|k, v| self.send(("#{k}="), v)}
     @@all << self
     
