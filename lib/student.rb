@@ -27,7 +27,7 @@ class Student
   end
   
   def new
-  Student.name.new = {}
+  self.name.new = {}
 end
 
 end
