@@ -30,3 +30,4 @@ class Student
   new_student = Student.new(name)
 end
 
+end
