@@ -14,11 +14,12 @@ class Student
 
   def self.create_from_collection(students_array)
     binding.pry
-    students_array.each {|student_hash|}
+    students_array.each do |student_hash| 
     student_hash.each {|k, v| self.send(("#{k}="), v)}
     @@all << self
     
   end
+end
 
   def add_student_attributes(attributes_hash)
     attributes_hash.each do |k, v|
