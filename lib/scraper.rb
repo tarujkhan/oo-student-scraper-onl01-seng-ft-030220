@@ -18,12 +18,11 @@ class Scraper
       profile_path = student.css("a").attribute("href").value
       student_details[:profile_url] = './fixtures/student-site/' + profile_path
      students << student_details
-     binding.pry
-       new_student = {:name => "h4.student-name" ,:location => "p.student-location", :profile_url =>  "./fixtures/student-site/"}
+      new_student = {:name => "h4.student-name" ,:location => "p.student-location", :profile_url =>  "./fixtures/student-site/"}
     
     students << new_student
    # binding.pry
- end
+ 
    end
     students 
   end
