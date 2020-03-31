@@ -21,6 +21,7 @@ class Scraper
     students << new_student 
     students << new_location
     students << new_profile
+    binding.pry
    end
     students
   end
