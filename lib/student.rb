@@ -27,7 +27,7 @@ class Student
   end
   
   def new
-  new_student = self.new({:name => :location})
+  new_student = self.new({:name, :location})
 end
 
 end
