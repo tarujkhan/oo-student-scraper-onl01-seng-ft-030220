@@ -21,6 +21,7 @@ class Scraper
     new_student = {student, "h4.student-name"}
     new_location = {location, "p.student-location"}
     new_profile = {profile,  './fixtures/student-site/'}
+    students << new_student && new_profile && new_location
     
   end
 
