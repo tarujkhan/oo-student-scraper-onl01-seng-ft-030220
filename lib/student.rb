@@ -26,7 +26,7 @@ class Student
     @@all
   end
   
-  def new
+  def self.new
   new_student = self.new({:name, :location})
 end
 
