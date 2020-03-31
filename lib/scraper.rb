@@ -22,7 +22,7 @@ class Scraper
     
     students << new_student
    # binding.pry
- 
+ end
    end
     students 
   end
