@@ -15,7 +15,8 @@ class Student
   def self.create_from_collection(students_array)
   
     students_array.each do |student_hash| 
-    new_student = self.new(student_hash)
+    student_hash.each {|k, v| self.send(("#{k}="), v)}
+    @@all << self
     
   end
 end
