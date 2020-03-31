@@ -49,4 +49,4 @@ class Scraper
   end
 
 
-
+end 
