@@ -18,7 +18,7 @@ class Scraper
        new_student = {:student => "h4.student-name" ,:location => "p.student-location", :profile =>  "./fixtures/student-site/"}
     
     students << new_student
-    binding.pry
+   # binding.pry
    end
     students 
   end
