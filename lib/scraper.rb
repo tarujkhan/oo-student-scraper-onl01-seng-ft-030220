@@ -18,12 +18,7 @@ class Scraper
       student_details[:profile_url]  =  "#{s.attr("href")}"
       
      students << student_details
-     binding.pry
-      new_student = {:name => "h4.student-name" ,:location => "p.student-location", :profile_url =>  "./fixtures/student-site/"}
-    
-    students << new_student
-   # binding.pry
- end
+   end
    end
     students 
   end
