@@ -18,6 +18,8 @@ class Scraper
     end
     students
     
+    new_stu
+    
   end
 
   def self.scrape_profile_page(profile_url)
